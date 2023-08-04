@@ -3,7 +3,7 @@
 # 선형 배열로 풀면 O(N)
 
 # 트리 정의
-def define_tree(start, end, index):
+def build_segment_tree(start, end, index):
     if start == end:
         segment_tree[index] = l[start-1]
         return segment_tree[index]
