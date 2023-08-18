@@ -20,3 +20,5 @@ heights = list(map(int, input().split()))
 # 결과 계산 및 출력
 result = find_receiving_towers(heights)
 print(' '.join(map(str, result)))
+
+-------------
